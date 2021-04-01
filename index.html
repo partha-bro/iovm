@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>India On-Road Vehicle Maintenance</title>
+    <!-- Font Awesome -->
+	<!--<link rel="stylesheet" href="css/font-awesome.min.css" />-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet" />
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.min.css" rel="stylesheet" />
+	<link rel="shortcut icon" href="img/favicon.png" />
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-sm-12 logo">
+				<a href="index.html" target="_self">
+                    <img src="img/logo.jpg" Alt="INDIA ON-ROAD" height="auto" width="40%"/>
+                </a>
+			</div>
+			<div class="col-md-6 col-sm-12 number">
+				<a href="tel:+91-892-988-4855"><span class="fa fa-mobile" style="font-size:24px;"></span> Call us: +91(892)988-4855</a>
+			</div>
+		</div>
+		<div class="menu">
+			<div class="row bg-primary menu-link">
+				<div class="col-md-2 col-sm-4 menu-div">
+					<button type="button" class="dropbtn bg-white text-primary"><b><a href="index.html" >HOME</a></b></button>
+				</div>
+				<div class="col-md-2 col-sm-4 menu-div">
+					<button class="dropbtn"><b><a href="index.html#aboutus"  class="text-white">ABOUT US</a></b></button>
+				</div>
+				<div class="col-md-2 col-sm-4 menu-div dropdown">
+					<button class="dropbtn"><b>SERVICES</b> <i class="fa fa-caret-down"></i></button>
+					<div class="dropdown-content">
+						<a href="services.html#truck_service">Truck Service</a>
+						<a href="services.html#truck_repair">Truck Repair</a>
+						<a href="services.html#logistics">Logistic Services</a>
+					  </div>
+				</div>
+				<div class="col-md-2 col-sm-4 menu-div dropdown">
+					<button class="dropbtn"><b>CONNECT</b> <i class="fa fa-caret-down"></i></button>
+					<div class="dropdown-content">
+						<a href="connect.html#pickup">Pick Up Request</a>
+						<a href="connect.html#maintenance_request">Maintenance Request</a>
+					  </div>
+				</div>
+				<div class="col-md-3 col-sm-6 menu-div">
+					<button class="dropbtn"><b><a href="contact.html" class="text-white">CONTACT US</a></b></button>
+				</div>
+			</div>
+		</div>
+		<!-- Content -->
+		<div class="slideshow">
+
+			<div class="mySlides fade">
+			  <div class="numbertext">1 / 5</div>
+			  <img src="img/img_1.jpg" style="width:100%; height:100%;" />
+			  <div class="text"><p>Take the experience of a cheap and fast maintenance service once.<br/>
+			  Our mechanics accomplish every task in a very short time.<br/>We/Team work for reliability.</p></div>
+			</div>
+
+			<div class="mySlides fade">
+			  <div class="numbertext">2 / 5</div>
+			  <img src="img/img_2.jpg" style="width:100%; height:100%;" />
+			  <div class="text"><p>India On-Road is providing complete on road vehicle repair & friendly service in India.</p></div>
+			</div>
+
+			<div class="mySlides fade">
+			  <div class="numbertext">3 / 5</div>
+			  <img src="img/img_3.jpg" style="width:100%; height:100%;" />
+			  <div class="text"><p>Our team is highly skilled and experienced.<br/> Technicians are delivering quality vehicle repair.</p></div>
+			</div>
+			
+			<div class="mySlides fade">
+			  <div class="numbertext">4 / 5</div>
+			  <img src="img/img_4.jpg" style="width:100%; height:100%;" />
+			  <div class="text"><p>If your vehicle need maintenance service anywhere in India, you can trust our team to help your vehicle on road.</p></div>
+			</div>
+			
+			<div class="mySlides fade">
+			  <div class="numbertext">5 / 5</div>
+			  <img src="img/img_5.jpg" style="width:100%; height:100%;" />
+			  <div class="text"><p>We are also providing logostics service in Indian location.</p></div>
+			</div>
+
+		</div>
+		
+		<br>
+
+		<div style="text-align:center">
+		  <span class="dot"></span> 
+		  <span class="dot"></span> 
+		  <span class="dot"></span> 
+		  <span class="dot"></span> 
+		  <span class="dot"></span> 
+		</div>
+
+		<script>
+			var slideIndex = 0;
+			showSlides();
+
+			function showSlides() {
+				var i;
+				var slides = document.getElementsByClassName("mySlides");
+				var dots = document.getElementsByClassName("dot");
+				for (i = 0; i < slides.length; i++) {
+				   slides[i].style.display = "none";  
+				}
+				slideIndex++;
+				if (slideIndex > slides.length) {slideIndex = 1}    
+				for (i = 0; i < dots.length; i++) {
+					dots[i].className = dots[i].className.replace(" active", "");
+				}
+				slides[slideIndex-1].style.display = "block";  
+				dots[slideIndex-1].className += " active";
+				setTimeout(showSlides, 5000); // Change image every 2 seconds
+			}
+		</script>
+		<!-- Content -->
+		            <!--Section: Cards-->
+            <section class="text-center">
+
+                <!--Grid row-->
+                <div class="row mb-4 wow fadeIn">
+
+                    <!--Grid column-->
+                    <div class="col-lg-12 col-md-12 mb-12">
+
+                        <!--Card-->
+                        <div class="card">
+
+                            
+
+                            <!--Card content-->
+                            <div class="card-body">
+								<h3 class="card-title text-primary" id="aboutus"><b>ABOUT US</b></h3><hr/><hr/>
+                                <!--Title-->
+                                <h5 class="card-title"><b>What We Do</b></h5><hr/>
+                                <!--Text-->
+								<p class="card-title text-left"><b>MANTAINENCE:-</b>Are you ready to experience a new way to have your fleet vehicles   serviced? We have a highly experienced mechanics on their way to perform the vehicle maintenance services you require. Our team is operating the operation smoothly, so you can be assured that you'll receive quick, accurate repairs.</p>
+
+								<p class="card-title text-left">We are available for your emergency breakdown at all times. Call us toll-free at +91-892-988-4855 for Emergency Roadside Assistance or visit our Breakdown page for the 24-hour, emergency phone number of the shop nearest to your location. Help is only a phone call away, 24 hours a day, 7 days a week!</p>
+								
+								<p class="card-title text-left"><b>LOGISTIC SERVICE:-</b>Today's market needs are urgent and very specific. We understand this and provide last mile delivery services to aid business-to-business or business-to-consumer deliveries.</p>
+
+								<p class="card-title text-left">We avoid space wastage in trucks. We aim for optimum utilization of space and tonnage. We also optimize routes so that your goods reach their destination in the shortest possible time through the safest routes.</p>
+								
+								
+								 <!--Title-->
+                                <h5 class="card-title"><b>Our Mission</b></h5><hr/>
+                                <!--Text-->
+                                <p class="card-title text-left">To provide our clients with superior on-road maintenance for their fleet vehicles. We accomplish this by performing preventative maintenance measures to decrease corrective maintenance costs, and by performing corrective vehicle maintenance services in an efficient and cost-effective manner.</p>
+								
+								<h5 class="card-title"><b>Why Choose India On-Road</b></h5><hr/>
+                                <!--Text-->
+                                <p class="card-title text-left">At India On-Road, we understand the importance of keeping business moving and are committed to providing timely, reliable services. Our highly-trained, experienced certified master technicians, diagnostic tools and complete on-site parts room, allow us to efficiently service all makes and models.</p>
+
+                                <!--Text-->
+                                <p class="card-title text-left">From minor repairs and major overhauls to regular and preventative maintenance, India On-Road is your single-source solution to maximize the life of you truck and minimizing down time. We have our mechanics on every 25 kms so you can be assured that you will receive quick, accurate repairs.</p>
+                            </div>
+
+                        </div>
+                        <!--/.Card-->
+
+                    </div>
+                    <!--Grid column-->
+				</div>
+            </section>
+            <!--Section: Cards-->
+			
+			 <section class="text-center">
+
+                <!--Grid row-->
+                <div class="row mb-4 wow fadeIn">
+
+                    <!--Grid column-->
+                    <div class="col-lg-12 col-md-12 mb-12">
+
+                        <!--Card-->
+                        <div class="card">
+
+                            <!--Card content-->
+                            <div class="card-body">
+								<h3 class="card-title text-primary"><b>OUR SERVICES</b></h3><hr/><hr/>
+                                <div class="row mb-4 wow fadeIn">
+
+									<!--Grid column-->
+									<div class="col-lg-4 col-md-6 mb-3">
+
+											<!--Card content-->
+											<div class="card-body">
+												<img src="img/home_img_1.jpg" >
+												<p class="card-title text-primary">Truck Service</p>
+												<button class="bg-primary readbtn" ><a class="text-white" href="services.html#truck_service">Read More</a></button>
+											</div>
+									</div>
+									<!--Grid column-->
+									<div class="col-lg-4 col-md-6 mb-3">
+
+											<!--Card content-->
+											<div class="card-body">
+												<img src="img/home_img_2.jpg" >
+												<p class="card-title text-primary">Truck Repair</p>
+												<button class="bg-primary readbtn" ><a class="text-white" href="services.html#truck_repair">Read More</a></button>
+											</div>
+									</div>
+									<!--Grid column-->
+									<div class="col-lg-4 col-md-6 mb-3">
+
+											<!--Card content-->
+											<div class="card-body">
+												<img src="img/home_img_3.jpg" >
+												<p class="card-title text-primary">Logistic Services</p>
+												<button class="bg-primary readbtn" ><a class="text-white" href="services.html#logistics">Read More</a></button>
+											</div>
+									</div>
+								</div>
+                            </div>
+
+                        </div>
+                        <!--/.Card-->
+
+                    </div>
+                    <!--Grid column-->
+                   
+				</div>
+            </section>
+            <!--Section: Cards-->
+			
+			<section class="card fadeIn" >
+				<div class="row">
+                    <div class="col-md-3 col-sm-6 card-body text-center">
+                        <div class="why_us_item">
+                            <span class="fa fa-thumbs-up" style="font-size:48px;"></span>
+                            <h5>We deliver quality</h5>
+                            <p>Quality products & services offered </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 card-body text-center">
+                        <div class="why_us_item">
+                            <span class="fa fa-clock-o" style="font-size:48px;"></span>
+                            <h5>Constant improvement</h5>
+                            <p>Improvement is our first priority.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 card-body text-center">
+                        <div class="why_us_item">
+                            <span class="fa fa-meh-o" style="font-size:48px;"></span>
+                            <h5>We are pasionate</h5>
+                            <p>Prompt pre and post sales support, Qualified Specialist</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 card-body text-center">
+                        <div class="why_us_item">
+                            <span class="fa fa-line-chart" style="font-size:48px;"></span>
+                            <h5>Transparent,Responsive Services</h5>
+                            <p>Professional team & well coordinated working</p>
+                        </div>
+                    </div>
+                </div>
+			</section>
+			<section class="card wow fadeIn" style="background-color:rgb(232,232,232);">
+				<div class="card-body text-primary text-center">
+					<h3 class="mb-4">
+						<strong>Questions, give us a call</strong>
+					</h3>
+					<h5>
+						<a id="topleft" style="height:25px; vertical-align:middle;" href="tel:+91-892-988-4855"><strong>Call us: +91(892)988-4855</strong></a>
+					</h5>
+				</div>
+			</section>
+	
+	<!--Footer-->
+    <footer class="page-footer text-center font-small mdb-color darken-2 mt-4 wow fadeIn">
+		<div class="row footer-div">
+			<div class="col-md-3 col-sm-6 text-left">
+				<h5>About Company</h5><br/>
+				<h6><strong>INDIA ON-ROAD</strong></h6>
+				<p>INDIA'S FIRST ON-ROAD MAINTENANCE PROVIDER</p>
+				<!--<section class="LegalLinks" data-test="footerLegalLinks">
+					<a class="LegalLinks_link" href="#" target="_self"><u>Terms &amp; Conditions</u>.</a><br/>
+					<a class="LegalLinks_link" href="#" target="_self"><u>Privacy Policy</u>.</a><br/><br/>
+				</section>-->
+			</div><br/><br/>
+			<div class="col-md-3 col-sm-6">
+			  <div class=" text-left">
+				<section class="SiteLinks" data-test="footerSiteLinks">
+					<nav>
+						<h5>Explore link</h5>
+						<a href="index.html" target="_self" class="SiteLinks_link">Home</a><br/><br/>
+						<a href="index.html#aboutus" target="_self" class="SiteLinks_link">About us</a><br/><br/>
+						<a href="services.html" target="_self" class="SiteLinks_link">Services</a><Br/><br/>
+						<a href="connect.html" target="_self" class="SiteLinks_link">Connect</a><Br/><br/>
+						<a href="contact.html" target="_self" class="SiteLinks_link">Contact us</a><br/><br/>
+					</nav>
+				</section>
+			  </div>
+			</div><br/><br/>
+			<div class="col-md-3 col-sm-6 text-left">
+				
+				<strong><h5>Connect with us!</h5></strong><br/>
+				<div class="pb-5">
+				<a href="https://www.facebook.com/" target="_blank">
+					<i class="fa fa-facebook" style="font-size:24px;"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Facebook
+				</a><br/>
+
+				<a href="https://twitter.com/" target="_blank">
+					<i class="fa fa-twitter" style="font-size:24px;"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Twitter
+				</a><br/>
+
+				<a href="https://in.linkedin.com/" target="_blank">
+					<i class="fa fa-linkedin" style="font-size:24px;"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Linkedin
+				</a><br/>
+					
+				<a href="https://plus.google.com/" target="_blank">
+					<i class="fa fa-google-plus" style="font-size:24px;"></i>&nbsp;&nbsp;&nbsp;&nbsp;Google Plus
+				</a>
+				 </div>
+			</div><br/><br/>
+			<div class="col-md-3 col-sm-6 text-left">
+				<div class="footer_item ">
+					<h5>Contact us</h5><br/>
+					<ul class="list-unstyled footer_contact">
+						<li><a href=""><span class="fa fa-map-marker" style="font-size:24px;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Company Address</a></li>
+						<li><a href=""><span class="fa fa-envelope" style="font-size:24px;"></span>&nbsp;&nbsp;&nbsp;info@indiaonroad.com</a></li>
+						<li><a href="tel:+91-892-988-4855"><span class="fa fa-mobile" style="font-size:24px;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+91-892-988-4855</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+        <!--Copyright-->
+        <div class="footer-copyright py-3">
+            © 2018 Copyright:
+            <a href="indiaonroad.com" target="_blank"> India On-Road Vehicle Maintenance. All rights reserved </a>
+        </div>
+        <!--/.Copyright-->
+
+    </footer>
+    <!--/.Footer-->
+
+</div>	
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Initializations -->
+    <script type="text/javascript">
+        // Animations initialization
+        new WOW().init();
+    </script>
+</body>
+
+</html>

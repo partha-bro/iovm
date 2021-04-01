@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Connect | India On-Road Vehicle Maintenance</title>
+    <!-- Font Awesome -->
+	<!--<link rel="stylesheet" href="css/font-awesome.min.css" />-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet" />
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.min.css" rel="stylesheet" />
+	<link rel="shortcut icon" href="img/favicon.png" />
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-sm-12 logo">
+				<a href="index.html" target="_self">
+                    <img src="img/logo.jpg" Alt="INDIA ON-ROAD" height="auto" width="40%"/>
+                </a>
+			</div>
+			<div class="col-md-6 col-sm-12 number">
+				<a href="tel:+91-892-988-4855"><span class="fa fa-mobile" style="font-size:24px;"></span> Call us: +91(892)988-4855</a>
+			</div>
+		</div>
+		<div class="menu">
+			<div class="row bg-primary menu-link">
+				<div class="col-md-2 col-sm-4 menu-div">
+					<button type="button" class="dropbtn text-white"><b><a href="index.html" class="text-white">HOME</a></b></button>
+				</div>
+				<div class="col-md-2 col-sm-4 menu-div">
+					<button class="dropbtn"><b><a href="index.html#aboutus" class="text-white">ABOUT US</a></b></button>
+				</div>
+				<div class="col-md-2 col-sm-4 menu-div dropdown">
+					<button class="dropbtn"><b>SERVICES</b> <i class="fa fa-caret-down"></i></button>
+					<div class="dropdown-content">
+						<a href="services.html#truck_service">Truck Service</a>
+						<a href="services.html#truck_repair">Truck Repair</a>
+						<a href="services.html#logistics">Logistic Services</a>
+					  </div>
+				</div>
+				<div class="col-md-2 col-sm-4 menu-div dropdown">
+					<button class="dropbtn  bg-white text-primary"><b>CONNECT</b> <i class="fa fa-caret-down"></i></button>
+					<div class="dropdown-content">
+						<a href="connect.html#pickup">Pick Up Request</a>
+						<a href="connect.html#maintenance_request">Maintenance Request</a>
+					  </div>
+				</div>
+				<div class="col-md-3 col-sm-6 menu-div">
+					<button type="button" class="dropbtn"><b><a href="contact.html" class="text-white">CONTACT US</a></b></button>
+				</div>
+			</div>
+		</div><br/>
+		<section class="text-center">
+
+                <!--Grid row-->
+                <div class="row mb-4 wow fadeIn">
+
+                    <!--Grid column-->
+                    <div class="col-lg-12 col-md-12 mb-12">
+
+                        <!--Card-->
+                        <div class="card">
+
+                            
+
+                            <!--Card content-->
+                            <div class="card-body">
+								<h3 class="card-title text-primary" id="pickup"><b>PICK UP REQUEST</b></h3><hr/><hr/>
+
+                                <!--Text-->
+								<form name="pickup" action="pickup.php" method="post">
+									<div class="row">
+										<div class="col-4 text-left">
+											Company Name: 
+										</div>
+										<div class="col-8">
+											<input type="text" class="form-control" name="p_com_name" placeholder="name" value="" required />
+										</div>
+								  </div><br/>
+								  <div class="row">
+									<div class="col-4  text-left">
+										Name: 
+									</div>
+									<div class="col-4">
+										<input type="text" class="form-control" name="p_first_name" placeholder="First name" value="" required />
+									</div>
+									<div class="col-4">
+										<input type="text" class="form-control" name="p_last_name" placeholder="Last name" value="" required />
+									</div>
+								  </div><br/>
+								  <div class="row">
+										<div class="col-4 text-left">
+											Email ID: 
+										</div>
+										<div class="col-8">
+											<input type="text" class="form-control" name="p_mail_id" placeholder="email" value="" required />
+										</div>
+								  </div><br/>
+								  <div class="row">
+										<div class="col-4 text-left">
+											Phone Number: 
+										</div>
+										<div class="col-8">
+											<input type="text" class="form-control" name="p_number" placeholder="number" value="" required />
+										</div>
+								  </div><br/>
+								  <div class="row">
+										<div class="col-4 text-left">
+											Fleet Size: 
+										</div>
+										<div class="col-8">
+											<input type="text" class="form-control" name="p_fleet_size" placeholder="Fleet Size" value="" required />
+										</div>
+								  </div><br/>
+								  <div class="row">
+										<div class="col-4 text-left">
+											Date and Time of Placement: 
+										</div>
+										<div class="col-4">
+											<input type="date" class="form-control" name="p_date" value="" required />
+										</div>
+										<div class="col-4">
+											<input type="time" class="form-control" name="p_time" value="" required />
+										</div>
+								  </div><br/>
+								  <div class="row">
+										<div class="col-4 text-left">
+											Start Point: 
+										</div>
+										<div class="col-4">
+											<input type="text" class="form-control" name="p_starting_address" placeholder="Address" value="" required />
+										</div>
+										<div class="col-4">
+											<input type="text" class="form-control" name="p_starting_pincode" placeholder="Pin code" value="" required />
+										</div>
+								  </div><br/>
+								  <div class="row">
+										<div class="col-4 text-left">
+											End Point: 
+										</div>
+										<div class="col-4">
+											<input type="text" class="form-control" name="p_ending_address" placeholder="Address" value="" required />
+										</div>
+										<div class="col-4">
+											<input type="text" class="form-control" name="p_ending_pincode" placeholder="Pin code" value="" required />
+										</div>
+								  </div><br/>
+								  <div class="row">
+										<div class="col-4 text-left">
+											Message: 
+										</div>
+										<div class="col-8">
+											<input type="text" class="form-control" name="p_message" placeholder="message" value="" required />
+										</div>
+								  </div><br/>
+								  <button type="submit" class="btn btn-primary" name="p_submit">Submit</button>
+								</form>
+									
+                            </div>
+
+                        </div>
+                        <!--/.Card-->
+
+                    </div>
+                    <!--Grid column-->
+				</div>
+        </section>
+        <!--Section: Cards-->
+		
+		<section class="text-center">
+
+                <!--Grid row-->
+                <div class="row mb-4 wow fadeIn">
+
+                    <!--Grid column-->
+                    <div class="col-lg-12 col-md-12 mb-12">
+
+                        <!--Card-->
+                        <div class="card">
+
+                            
+
+                            <!--Card content-->
+                            <div class="card-body">
+								<h3 class="card-title text-primary" id="maintenance_request"><b>MAINTENANCE REQUEST</b></h3><hr/><hr/>
+
+                                <!--Text-->
+								<form name="maintenane" action="maintenane.php" method="post">
+									<div class="row">
+										<div class="col-4 text-left">
+											Company Name: 
+										</div>
+										<div class="col-8">
+											<input type="text" class="form-control" name="m_com_name" placeholder="name" value="" required />
+										</div>
+								  </div><br/>
+								  <div class="row">
+									<div class="col-4  text-left">
+										Name: 
+									</div>
+									<div class="col-4">
+										<input type="text" class="form-control" name="m_first_name" placeholder="First name" value="" required />
+									</div>
+									<div class="col-4">
+										<input type="text" class="form-control" name="m_last_name" placeholder="Last name" value="" required />
+									</div>
+								  </div><br/>
+								  <div class="row">
+										<div class="col-4 text-left">
+											Email ID: 
+										</div>
+										<div class="col-8">
+											<input type="text" class="form-control" name="m_emailid" placeholder="email" value="" required />
+										</div>
+								  </div><br/>
+								  <div class="row">
+										<div class="col-4 text-left">
+											Phone Number: 
+										</div>
+										<div class="col-8">
+											<input type="text" class="form-control" name="m_number" placeholder="number" value="" required />
+										</div>
+								  </div><br/>
+								  <div class="row">
+										<div class="col-4 text-left">
+											Services: 
+										</div>
+										<div class="col-8">
+											<div class="row">
+												<div class="col-8">
+													<div class="row">
+														<div class="col-2 col-4">
+															<input type="checkbox" class="form-control" name="checkbox_1" value="On-Road Maintenance" />
+														</div>
+														<div class="col-6 text-left">
+															<label>On-Road Maintenance</label>
+														</div>
+													</div>
+												</div>
+												<div class="col-8">
+													<div class="row">
+														<div class="col-2 col-4">
+															<input type="checkbox" class="form-control" name="checkbox_2" value="Scheduled maintenane" />
+														</div>
+														<div class="col-6  text-left">
+															<label>Scheduled maintenane</label>
+														</div>
+													</div>
+												</div>
+												<div class="col-8">
+													<div class="row">
+														<div class="col-2 col-4">
+															<input type="checkbox" class="form-control" name="checkbox_3" value="Parts" />
+														</div>
+														<div class="col-6 text-left">
+															<label>Parts</label>
+														</div>
+													</div>
+												</div>
+												<div class="col-8">
+													<div class="row">
+														<div class="col-2 col-4">
+															<input type="checkbox" class="form-control" name="checkbox_4" value="General" />
+														</div>
+														<div class="col-6 text-left">
+															<label>General</label>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+								  </div><br/>
+								  <div class="row">
+										<div class="col-4 text-left">
+											Message: 
+										</div>
+										<div class="col-8">
+											<input type="text" class="form-control" name="m_message" placeholder="message" value="" required />
+										</div>
+								  </div><br/>
+								  <button type="submit" class="btn btn-primary" name="m_submit">Submit</button>
+								</form>
+									
+                            </div>
+
+                        </div>
+                        <!--/.Card-->
+
+                    </div>
+                    <!--Grid column-->
+				</div>
+        </section>
+		
+	<!--Footer-->
+    <footer class="page-footer text-center font-small mdb-color darken-2 mt-4 wow fadeIn">
+		<div class="row footer-div">
+			<div class="col-md-3 col-sm-6 text-left">
+				<h5>About Company</h5><br/>
+				<h6><strong>INDIA ON-ROAD</strong></h6>
+				<p>INDIA'S FIRST ON-ROAD MAINTENANCE PROVIDER</p>
+				<!--<section class="LegalLinks" data-test="footerLegalLinks">
+					<a class="LegalLinks_link" href="#" target="_self"><u>Terms &amp; Conditions</u>.</a><br/>
+					<a class="LegalLinks_link" href="#" target="_self"><u>Privacy Policy</u>.</a><br/><br/>
+				</section>-->
+			</div><br/><br/>
+			<div class="col-md-3 col-sm-6">
+			  <div class=" text-left">
+				<section class="SiteLinks" data-test="footerSiteLinks">
+					<nav>
+						<h5>Explore link</h5>
+						<a href="index.html" target="_self" class="SiteLinks_link">Home</a><br/><br/>
+						<a href="index.html#aboutus" target="_self" class="SiteLinks_link">About us</a><br/><br/>
+						<a href="services.html" target="_self" class="SiteLinks_link">Services</a><Br/><br/>
+						<a href="connect.html" target="_self" class="SiteLinks_link">Connect</a><Br/><br/>
+						<a href="contact.html" target="_self" class="SiteLinks_link">Contact us</a><br/><br/>
+					</nav>
+				</section>
+			  </div>
+			</div><br/><br/>
+			<div class="col-md-3 col-sm-6 text-left">
+				
+				<strong><h5>Connect with us!</h5></strong><br/>
+				<div class="pb-5">
+				<a href="https://www.facebook.com/" target="_blank">
+					<i class="fa fa-facebook" style="font-size:24px;"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Facebook
+				</a><br/>
+
+				<a href="https://twitter.com/" target="_blank">
+					<i class="fa fa-twitter" style="font-size:24px;"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Twitter
+				</a><br/>
+
+				<a href="https://in.linkedin.com/" target="_blank">
+					<i class="fa fa-linkedin" style="font-size:24px;"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Linkedin
+				</a><br/>
+					
+				<a href="https://plus.google.com/" target="_blank">
+					<i class="fa fa-google-plus" style="font-size:24px;"></i>&nbsp;&nbsp;&nbsp;&nbsp;Google Plus
+				</a>
+				 </div>
+			</div><br/><br/>
+			<div class="col-md-3 col-sm-6 text-left">
+				<div class="footer_item ">
+					<h5>Contact us</h5><br/>
+					<ul class="list-unstyled footer_contact">
+						<li><a href=""><span class="fa fa-map-marker" style="font-size:24px;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Company Address</a></li>
+						<li><a href=""><span class="fa fa-envelope" style="font-size:24px;"></span>&nbsp;&nbsp;&nbsp;info@indiaonroad.com</a></li>
+						<li><a href="tel:+91-892-988-4855"><span class="fa fa-mobile" style="font-size:24px;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+91-892-988-4855</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+        <!--Copyright-->
+        <div class="footer-copyright py-3">
+            © 2018 Copyright:
+            <a href="indiaonroad.com" target="_blank"> India On-Road Vehicle Maintenance. All rights reserved </a>
+        </div>
+        <!--/.Copyright-->
+
+    </footer>
+    <!--/.Footer-->
+</div>
+	
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Initializations -->
+    <script type="text/javascript">
+        // Animations initialization
+        new WOW().init();
+    </script>
+</body>
+
+</html>
